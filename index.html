@@ -9,6 +9,7 @@
 </head>
 <body>
     <section>
+        <h2>Inscription</h2>
         <form action="/ma-page-de-traitement" method="post">
             <div>
                 <label for="name">Nom :</label>
@@ -21,6 +22,35 @@
             <div>
                 <label for="mail">E-mail :</label>
                 <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="address">Adresse :</label>
+                <input type="text" id="address" name="user_address">
+            </div>
+            <div>
+                <label for="postal">Code postal :</label>
+                <input type="number" id="postal" name="user_postal">
+            </div>
+            <div>
+                <label for="city">Ville :</label>
+                <input type="text" id="city" name="user_city">
+            </div>
+            <div>
+                <label for="phone">Téléphone :</label>
+                <input type="tel" id="phone" name="user_phone">
+            </div>
+            <div>
+                <p>Civilité :</p>
+                    <input type="radio" id="mister" name="civil" value="mister">
+                    <label for="mister">M</label>
+                    <input type="radio" id="misses" name="civil" value="misses">
+                    <label for="misses">F</label>
+                    <input type="radio" id="other" name="civil" value="other">
+                    <label for="other">Autre</label>
+            </div>
+            <div>
+                <label for="login">Identifiant :</label>
+                <input type="password" id="login" name="user_login">
             </div>
             <div>
                 <label for="password">Mot de passe :</label>
